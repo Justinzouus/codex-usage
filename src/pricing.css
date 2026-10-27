@@ -1,0 +1,32 @@
+.usage-dashboard .du-pricing{margin:-8px 0 22px;color:var(--du-muted);font-size:12px}
+.usage-dashboard .du-pricing-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.usage-dashboard .du-pricing-state{font-weight:550;color:#526575}
+.usage-dashboard .du-pricing--attention .du-pricing-state,.usage-dashboard .du-pricing--attention summary{color:#866224}
+.usage-dashboard .du-pricing-time{font-size:11px}
+.usage-dashboard .du-pricing-refresh{display:inline-flex;align-items:center;gap:5px;border:0;padding:3px 0;background:transparent;color:#486c9c;cursor:pointer;font-size:12px}
+.usage-dashboard .du-pricing-refresh:disabled{color:var(--du-muted);cursor:default}
+.usage-dashboard .du-pricing-refresh svg{width:14px;height:14px}
+.usage-dashboard .du-pricing-details{margin-top:6px;font-size:11px}
+.usage-dashboard .du-pricing-details summary{cursor:pointer;width:fit-content}
+.usage-dashboard .du-pricing-details[open]{padding-bottom:12px;border-bottom:1px solid var(--du-line)}
+.usage-dashboard .du-pricing-source,.usage-dashboard .du-pricing-model{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px 16px}
+.usage-dashboard .du-pricing-source{margin-top:10px}
+.usage-dashboard .du-pricing-details button{border:0;padding:0;background:transparent;text-decoration:underline;text-underline-offset:3px;font-size:11px;color:#486c9c;cursor:pointer}
+.usage-dashboard .du-pricing-scope{margin:10px 0 0}
+.usage-dashboard .du-pricing-missing{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:10px}
+.usage-dashboard .du-pricing-model strong{font-size:12px;font-weight:550;color:var(--du-ink);overflow-wrap:anywhere}
+.usage-dashboard .du-pricing-missing p{margin:3px 0 0;overflow-wrap:anywhere}
+.usage-dashboard .du-pricing-error{margin:7px 0 0;color:#9c493f;font-size:12px;overflow-wrap:anywhere}
+.usage-dashboard .du-tier-usage{margin-top:12px;font-size:11px;color:var(--du-muted)}
+.usage-dashboard .du-tier-usage details{margin-top:7px}
+.usage-dashboard .du-tier-usage summary{cursor:pointer;width:fit-content}
+.usage-dashboard .du-tier-usage ul{list-style:none;padding:0;margin:8px 0;display:grid;gap:7px}
+.usage-dashboard .du-tier-usage li{display:flex;align-items:baseline;gap:6px 14px;flex-wrap:wrap}
+.usage-dashboard .du-tier-usage li>b{font-weight:550;color:var(--du-ink)}
+.usage-dashboard .du-tier-usage li>small{font-size:11px;color:#866224}
+.usage-dashboard .du-tier-usage details>p{margin:7px 0 0}
+.usage-dashboard .du-tier-rules{width:100%;margin-top:12px;border-collapse:collapse;text-align:left;line-height:1.6}
+.usage-dashboard .du-tier-rules caption{text-align:left;color:var(--du-ink);font-weight:550;margin-bottom:6px}
+.usage-dashboard .du-tier-rules th,.usage-dashboard .du-tier-rules td{padding:6px 10px 6px 0;border-bottom:1px solid var(--du-line);vertical-align:top}
+.usage-dashboard .du-tier-rules th{font-weight:500}
+
