@@ -21,7 +21,7 @@ Codex Usage 是一个放在 Mac 菜单栏的 Codex 额度与用量工具。从�
 
 ## 下载与使用
 
-V1.0 提供 **macOS Apple Silicon（M1 及更新芯片）DMG**。构建最低系统要求为 macOS 11；本次原生验收在 macOS 27 / Apple Silicon 上完成，其他版本尚未逐一实测。Intel Mac 暂无预编译包。
+V1.0 提供 **macOS Apple Silicon（M1 及更新芯片）DMG**。构建最低系统要求为 macOS 11；本次构建及窗口启动验证环境为 macOS 27 / Apple Silicon，其他版本尚未逐一实测。Intel Mac 暂无预编译包。
 
 1. 从 [Releases](https://github.com/Justinzouus/codex-usage/releases/latest) 下载 DMG，打开后把 **Codex Usage.app** 拖入 **Applications**。
 2. 先在这台 Mac 安装并登录 Codex / ChatGPT，确保可找到其内置 Codex CLI 或单独安装的 `codex`。

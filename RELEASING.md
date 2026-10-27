@@ -17,7 +17,7 @@ cargo test --manifest-path src-tauri/Cargo.toml --locked
 npm run tauri -- build --bundles app,dmg
 ```
 
-本次使用 Gitleaks 扫描公开快照，核对版本、签名、DMG 内容、SHA-256、隔离数据下的原生启动，以及账期设置保存 / 重启读取。编译时用 Rust `--remap-path-prefix` 隐去构建者个人路径，并剥离符号。
+本次使用 Gitleaks 扫描公开快照，核对版本、签名、DMG 内容、SHA-256、隔离数据下的原生窗口启动。账期保存、校验与读取已由前端交互和 Rust 持久化测试覆盖；本次原生账期表单交互与重启恢复未完成验收。编译时用 Rust `--remap-path-prefix` 隐去构建者个人路径，并剥离符号。
 
 ## 分发
 
